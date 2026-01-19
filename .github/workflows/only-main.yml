@@ -1,8 +1,8 @@
 name: Only Main Branch
 on:
   push:
-  branches:
-    - main
+    branches:
+      - main
   jobs:
     main-only:
       runs-on: ubuntu-latest
