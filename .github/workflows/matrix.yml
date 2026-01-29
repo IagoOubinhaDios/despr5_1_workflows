@@ -29,5 +29,6 @@ jobs:
 
       - name: Create simple test
         run: |
-          echo "console.log('Testing on Node ${{ matrix.node-version }}');" > test.js
+          echo "console.log('Testing on Node ${{ matrix.node-version }}');" > 
+          test.js
           node test.js
